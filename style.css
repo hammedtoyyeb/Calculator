@@ -1,0 +1,39 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    background-color: #fff;
+}
+
+.container {
+    width: 40%;
+    height: 80%;
+    border: solid;
+    margin: 20px auto;
+}
+
+.calc_screen {
+    width: 80%;
+    height: 70px;
+    border: 1px solid rgb(92, 78, 78);
+    margin: 10px auto;
+
+}
+
+.btn_container {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.btn {
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    /* border: 0; */
+
+}
+
